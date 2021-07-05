@@ -1,16 +1,16 @@
 body{
-    font-family: 'Roboto Slab', serif;
+    font-family: 'Open Sans';
+    background-image:url(images/bg1.png);
 }
 
 .col-teal{
     color:teal;
+    font-weight:700;
 }
 
 .top{
-    background-image:url(images/bg1.png);
+    
     display: flex;
-    /* background-position:right; */
-    background-repeat: no-repeat;
 }
 
 .top h1{
@@ -23,4 +23,26 @@ body{
 
 .width-50 img{
     width: 80%;
+}
+
+.lb{
+    text-decoration:none;
+    padding: 10px 40px;
+    background-image:linear-gradient(to right,#04a5a5,cadetblue);
+    color:white;
+    border-radius: 4px;
+    font-weight:600;
+    margin-left: 15px;
+    margin-top:20px;
+    display:inline-block;
+
+}
+
+.mid{
+    display: flex;
+    margin-top:70px;
+}
+
+.mid h1{
+    font-size: 50px;
 }
