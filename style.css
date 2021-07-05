@@ -1,1 +1,26 @@
-waf
+body{
+    font-family: 'Roboto Slab', serif;
+}
+
+.col-teal{
+    color:teal;
+}
+
+.top{
+    background-image:url(images/bg1.png);
+    display: flex;
+    /* background-position:right; */
+    background-repeat: no-repeat;
+}
+
+.top h1{
+    font-size: 50px;
+}
+
+.width-50{
+    width: 50%;
+}
+
+.width-50 img{
+    width: 80%;
+}
